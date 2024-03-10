@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap")
+      body {
+        font-family: "Open Sans", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      nav > div:nth-of-type(2) {
+        display: flex;
+        gap: 20px;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .c1 {
+        padding: 10px 20px 10px 20px;
+        background-color: #f2fdff;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .c2 {
+        padding: 10px;
+        background-color: transparent;
+        color: red;
+        border: 1px solid red;
+        border-radius: 10px;
+      }
+      .c3 {
+        box-sizing: border-box;
+      }
+      .c4 {
+        width: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <img
+          src="https://masai-website-images.s3.ap-south-1.amazonaws.com/logo.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <span class="c3">
+          <details>
+            <summary>COURSES</summary>
+            <ol>
+              <li>Full Stack Web Developer</li>
+              <li>Data Analytics</li>
+              <li>Backend Web Developer</li>
+            </ol>
+          </details>
+        </span>
+        <span>FEES & ISA</span>
+        <span>ABOUT US</span>
+        <span>HIRE FROM US</span>
+        <span>FAQ</span>
+        <span>EVENTS</span>
+        <button class="c1">
+          REFER & EARN
+          <img
+            class="c4"
+            src="https://www.shutterstock.com/image-vector/refer-friend-concept-vector-illustration-260nw-1026696121.jpg"
+            alt=""
+          />
+        </button>
+        <button class="c2">LOGIN</button>
+      </div>
+    </nav>
+  </body>
+</html>
